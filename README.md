@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎭 Artistly – Performing Artist Booking Platform
 
-## Getting Started
+Artistly is a fictional performing artist booking platform built as part of a frontend developer test assignment. The app allows event planners to browse and filter artists, and artist managers to onboard artists and view submissions.
 
-First, run the development server:
+---
+
+## 🔗 Live Preview
+
+Deployed on **Vercel**  
+🌐 [https://artistly-gursimarjot.vercel.app](https://artistly-gursimarjot.vercel.app)
+
+---
+
+## 🚀 Tech Stack
+
+- **Framework**: Next.js 13+ (App Router)
+- **Language**: JavaScript (ES6+)
+- **Styling**: Tailwind CSS
+- **UI Components**: ShadCN UI
+- **Forms**: React Hook Form + Yup
+- **State Management**: React Hooks (`useState`, `useEffect`, `useContext`)
+- **Deployment**: Vercel
+
+---
+
+## 📁 Features & Pages
+
+### 1️⃣ Homepage (`/`)
+- Overview of Artistly
+- Hero section + call-to-action
+- 4 Artist categories: Singer, Dancer, DJ, Speaker
+- Responsive layout
+
+### 2️⃣ Artist Listing (`/artists`)
+- Dynamic artist grid from JSON data
+- Filter by:
+  - Category
+  - Location
+  - Price Range
+- Mobile-responsive (grid → list)
+- Reusable Card and FilterBlock components
+
+### 3️⃣ Artist Onboarding Form (`/onboard`)
+- Form with validation:
+  - Name
+  - Bio
+  - Category (multi-select)
+  - Languages
+  - Fee Range (dropdown)
+  - Location
+  - Optional profile image
+- Form validation using Yup
+- Submission prints data to console (mock API)
+
+### 4️⃣ Manager Dashboard (`/dashboard`)
+- Static list of submitted artists
+- Table with Name, Category, City, Fee, Actions
+- Reusable Table component
+
+---
+
+## 📦 Project Setup
 
 ```bash
+# Install dependencies
+npm install
+
+# Run the app
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+artistly/
+├── app/             # App Router pages
+│   ├── layout.js
+│   ├── page.js
+│   ├── artists/
+│   ├── onboard/
+│   └── dashboard/
+├── components/      # Reusable components (Card, Filters, FormFields, etc.)
+├── data/            # Static JSON artist data
+├── public/          # Static assets
+└── styles/          # Tailwind config
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+🧠 Concepts Demonstrated
+Component-based architecture
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Controlled form inputs with validation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Filtering data from mock JSON
 
-## Deploy on Vercel
+Responsive layouts with Tailwind
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+React hooks for logic and effects
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Animations using Framer Motion
+
+
+👤 Author
+Gursimarjot Kaur
+📧 gursimarjotkaur7@gmail.com
+🔗 GitHub: @Gursimarjot
+
