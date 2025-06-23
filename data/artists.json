@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "John Melody",
+    "category": "Singer",
+    "location": "Mumbai",
+    "price": "5000 - 8000"
+  },
+  {
+    "id": 2,
+    "name": "Rhythm Queen",
+    "category": "Dancer",
+    "location": "Delhi",
+    "price": "4000 - 7000"
+  },
+  {
+    "id": 3,
+    "name": "DJ Blaze",
+    "category": "DJ",
+    "location": "Goa",
+    "price": "7000 - 10000"
+  }
+]
