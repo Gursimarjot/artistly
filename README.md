@@ -1,6 +1,6 @@
 # 🎭 Artistly – Performing Artist Booking Platform
 
-Artistly is a fictional performing artist booking platform built as part of a frontend developer test assignment. The app allows event planners to browse and filter artists, and artist managers to onboard artists and view submissions.
+Artistly is a fictional performing artist booking platform built as part of a frontend developer project. The app allows event planners to browse and filter artists, and artist managers to onboard artists and view submissions.
 
 ---
 
